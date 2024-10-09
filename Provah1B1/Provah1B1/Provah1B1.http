@@ -1,0 +1,6 @@
+@Provah1B1_HostAddress = http://localhost:5186
+
+GET {{Provah1B1_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

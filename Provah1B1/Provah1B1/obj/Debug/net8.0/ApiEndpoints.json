@@ -1,0 +1,48 @@
+[
+  {
+    "ContainingType": "Provah1B1.Controllers.EleitorController",
+    "Method": "ObterCartas",
+    "RelativePath": "API/EleitorController/ObterJustificativas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Provah1B1.Controllers.EleitorController",
+    "Method": "ReceberDados",
+    "RelativePath": "API/EleitorController/ReceberDados",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "eleitor",
+        "Type": "Provah1B1.Models.Eleitor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Provah1B1.Controllers.WeatherForecastController",
+    "Method": "Get",
+    "RelativePath": "WeatherForecast",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Provah1B1.WeatherForecast, Provah1B1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Provah1B1.props" />
+</Project>
